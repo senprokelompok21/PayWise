@@ -1,5 +1,5 @@
+
 #PAYWISE
-Dapatkan gaji sesuai value mu!
 
 
 Ketua Kelompok: Hiera Ahmaddhio Rhesadewa 21/473997/TK/52268 
