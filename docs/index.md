@@ -1,6 +1,7 @@
-# Kelompok "Ilmu Padi"
+# PayWise
 
-## Anggota:
+# Kelompok "Ilmu Padi" 
+### Anggota:
 
 Hiera Ahmaddhio Rhesadewa - 21/473997/TK/52268
 
@@ -41,7 +42,7 @@ perusahaan sebagai penyimpan data karyawan dan gajinya.
 
 Kompetitor:
 
-1. PayScale
+### PayScale
 
 * Kelebihan: Tampilan simple dan mudah dipahami; Parameter yang digunakan banyak
   sehingga penghitungan gaji lebih akurat
@@ -50,7 +51,7 @@ Kompetitor:
   lokasi tertentu; Tidak ada fitur employee
   management bagi pihak perusahaan
 
-2. Glassdoor
+### Glassdoor
 
 * Kelebihan: Database perusahaaan banyak
   dikarenakan tersedia fitur unggah
@@ -63,7 +64,7 @@ Kompetitor:
   perusahaan yang besar atau populer
   saja
 
-3. ZipRecruiter
+### ZipRecruiter
 
 * Kelebihan: Menyediakan tawaran-tawaran
   pekerjaan di seluruh dunia; Bisa untuk apply job ke suatu
