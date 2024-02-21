@@ -41,7 +41,7 @@ perusahaan sebagai penyimpan data karyawan dan gajinya.
 
 Kompetitor:
 
-- PayScale
+1. PayScale
 
 * Kelebihan: Tampilan simple dan mudah dipahami; Parameter yang digunakan banyak
   sehingga penghitungan gaji lebih akurat
@@ -50,7 +50,7 @@ Kompetitor:
   lokasi tertentu; Tidak ada fitur employee
   management bagi pihak perusahaan
 
-- Glassdoor
+2. Glassdoor
 
 * Kelebihan: Database perusahaaan banyak
   dikarenakan tersedia fitur unggah
@@ -63,7 +63,7 @@ Kompetitor:
   perusahaan yang besar atau populer
   saja
 
-- ZipRecruiter
+3. ZipRecruiter
 
 * Kelebihan: Menyediakan tawaran-tawaran
   pekerjaan di seluruh dunia; Bisa untuk apply job ke suatu
