@@ -88,6 +88,11 @@ Pencari pekerjaan yang bingung menentukan gaji yang diajukan dan HR manager peru
 
 ![Screenshot 2024-02-25 094207](https://github.com/senprokelompok21/PayWise/assets/92965439/b376241a-2699-4156-b2e6-738b91088d4f)
 
+![Screenshot 2024-02-25 094716](https://github.com/senprokelompok21/PayWise/assets/92965439/924567ad-2c7f-4c34-aaf5-b48d002b8b75)
+![Screenshot 2024-02-25 094802](https://github.com/senprokelompok21/PayWise/assets/92965439/53e26b7c-bff5-43ef-b01f-437ae6f44260)
+![Screenshot 2024-02-25 094839](https://github.com/senprokelompok21/PayWise/assets/92965439/1171eb0f-7028-48bf-b7cf-759b58e19dea)
+![Screenshot 2024-02-25 094914](https://github.com/senprokelompok21/PayWise/assets/92965439/1a13435c-c1cf-47d5-9a20-b03c288d47e1)
+
 ## Use Case Diagram
 
 ![Screenshot 2024-02-25 092951](https://github.com/senprokelompok21/PayWise/assets/92965439/cf882655-bfa3-40a3-ab38-acf71b347fa4)
