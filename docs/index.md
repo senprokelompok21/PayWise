@@ -94,8 +94,7 @@ Pencari pekerjaan yang bingung menentukan gaji yang diajukan dan HR manager peru
 
 ## Functional Requirements
 
-![Screenshot 2024-02-25 093351](https:/![Uploading Screenshot 2024-02-25 094207.png…]()
-/github.com/senprokelompok21/PayWise/assets/92965439/29f3a69a-d7a1-4c39-89e2-43e3ef6cd550)
+![Screenshot 2024-02-25 094413](https://github.com/senprokelompok21/PayWise/assets/92965439/ff5e2b4e-4481-47a8-893f-cd4aca24c5fa)
 ![Screenshot 2024-02-25 093420](https://github.com/senprokelompok21/PayWise/assets/92965439/30eb68b8-0591-433c-a4e3-1745207e188c)
 ![Screenshot 2024-02-25 093459](https://github.com/senprokelompok21/PayWise/assets/92965439/cf16983a-e79f-4a67-8ca9-a018b7cc912f)
 
@@ -106,3 +105,4 @@ Pencari pekerjaan yang bingung menentukan gaji yang diajukan dan HR manager peru
 ## Low-Fidelity Wireframe
 
 ![Screenshot 2024-02-25 093712](https://github.com/senprokelompok21/PayWise/assets/92965439/e3bae459-2f00-4021-9e0f-416ca1f19511)
+![Screenshot 2024-02-25 094457](https://github.com/senprokelompok21/PayWise/assets/92965439/e47e12b7-1f97-4b46-a17d-4ff93859f60b)
