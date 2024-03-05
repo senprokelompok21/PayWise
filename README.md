@@ -1,6 +1,6 @@
 # PAYWISE
 
-Dapatkan gaji sesuai value mu!
+Dapatkan gaji sesuai value mu..!
 
 ## Kelompok "Ilmu Padi"
 
