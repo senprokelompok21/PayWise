@@ -11,7 +11,7 @@ export default function Navbar() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/">Calculate Salary</a>
+          <a href="/calculateSalary">Calculate Salary</a>
         </li>
         <li>
           <a href="/aboutUs">About Us</a>
