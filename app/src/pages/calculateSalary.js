@@ -8,8 +8,18 @@ const CalculateSalary = () => {
     { label: "three", value: 3 },
   ];
   const [selectedOption, setSelectedOption] = useState("");
+  const [showPopup, setShowPopup] = useState(false);
+
   function handleSelect(event) {
     setSelectedOption(event.target.value);
+  }
+
+  function handlePredict() {
+    setShowPopup(true);
+  }
+
+  function handleClosePopup() {
+    setShowPopup(false);
   }
 
   return (
@@ -58,10 +68,29 @@ const CalculateSalary = () => {
             </select>
           </div>
           <div className="button flex flex-col items-center w-full">
-            <div className="bg-secondary-500 w-[127px] rounded flex justify-center items-center mb-[16px] cursor-pointer">
+            <div
+              className="bg-secondary-500 w-[127px] rounded flex justify-center items-center mb-[16px] cursor-pointer"
+              onClick={handlePredict}
+            >
               Predict
             </div>
           </div>
+          {showPopup && (
+            <div className="popup-overlay w-full flex flex-col items-center">
+              <div className="popup">
+                <div className="popup-content flex flex-col items-center">
+                  <h2 className="font-medium">Prediction Result:</h2>
+                  <p>Your predicted salary is: $X,XXX</p>
+                  <button
+                    className="close-button bg-secondary-500 w-[90px] rounded flex justify-center items-center my-[16px] cursor-pointer"
+                    onClick={handleClosePopup}
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </>
