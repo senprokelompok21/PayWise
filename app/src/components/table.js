@@ -9,52 +9,171 @@ import TablePagination from "@mui/material/TablePagination";
 import TableRow from "@mui/material/TableRow";
 
 const columns = [
-  { id: "name", label: "Name", minWidth: 170 },
-  { id: "code", label: "ISO\u00a0Code", minWidth: 100 },
+  { id: "name", label: "Name", minWidth: 100 },
   {
-    id: "population",
-    label: "Population",
+    id: "age",
+    label: "Age",
+    minWidth: 75,
+    align: "center",
+    format: (value) => value.toLocaleString("en-US"),
+  },
+  {
+    id: "gender",
+    label: "Gender",
+    minWidth: 100,
+    align: "center",
+    format: (value) => value.toLocaleString("en-US"),
+  },
+  {
+    id: "educationLevel",
+    label: "Education Level",
+    minWidth: 170,
+    align: "center",
+    format: (value) => value.toLocaleString("en-US"),
+  },
+  {
+    id: "jobTitle",
+    label: "Job Title",
+    minWidth: 170,
+    align: "center",
+    format: (value) => value.toLocaleString("en-US"),
+  },
+  {
+    id: "yearsOfExperience",
+    label: "Years of Experience",
+    minWidth: 170,
+    align: "center",
+    format: (value) => value.toLocaleString("en-US"),
+  },
+  {
+    id: "salary",
+    label: "Salary",
     minWidth: 170,
     align: "right",
     format: (value) => value.toLocaleString("en-US"),
   },
   {
-    id: "size",
-    label: "Size\u00a0(km\u00b2)",
+    id: "action",
+    label: "Action",
     minWidth: 170,
-    align: "right",
+    align: "center",
     format: (value) => value.toLocaleString("en-US"),
-  },
-  {
-    id: "density",
-    label: "Density",
-    minWidth: 170,
-    align: "right",
-    format: (value) => value.toFixed(2),
   },
 ];
 
-function createData(name, code, population, size) {
-  const density = population / size;
-  return { name, code, population, size, density };
+function createData(
+  name,
+  age,
+  gender,
+  educationLevel,
+  jobTitle,
+  yearsOfExperience,
+  salary,
+  action
+) {
+  return {
+    name,
+    age,
+    gender,
+    educationLevel,
+    jobTitle,
+    yearsOfExperience,
+    salary,
+    action,
+  };
 }
 
 const rows = [
-  createData("India", "IN", 1324171354, 3287263),
-  createData("China", "CN", 1403500365, 9596961),
-  createData("Italy", "IT", 60483973, 301340),
-  createData("United States", "US", 327167434, 9833520),
-  createData("Canada", "CA", 37602103, 9984670),
-  createData("Australia", "AU", 25475400, 7692024),
-  createData("Germany", "DE", 83019200, 357578),
-  createData("Ireland", "IE", 4857000, 70273),
-  createData("Mexico", "MX", 126577691, 1972550),
-  createData("Japan", "JP", 126317000, 377973),
-  createData("France", "FR", 67022000, 640679),
-  createData("United Kingdom", "GB", 67545757, 242495),
-  createData("Russia", "RU", 146793744, 17098246),
-  createData("Nigeria", "NG", 200962417, 923768),
-  createData("Brazil", "BR", 210147125, 8515767),
+  createData(
+    "Franny Frail",
+    "1",
+    "Male",
+    "Geological Engineer",
+    "Paralegal",
+    "1",
+    "2685948171"
+  ),
+  createData(
+    "Eberhard Poulney",
+    "2",
+    "Male",
+    "Cost Accountant",
+    "Associate Professor",
+    "2",
+    "9970218646"
+  ),
+  createData(
+    "Hedda Boother",
+    "3",
+    "Female",
+    "Software Engineer II",
+    "Senior Editor",
+    "3",
+    "7789303813"
+  ),
+  createData(
+    "Kassey Wurst",
+    "4",
+    "Female",
+    "Senior Editor",
+    "Nuclear Power Engineer",
+    "4",
+    "1999554078"
+  ),
+  createData(
+    "Kendal Robertis",
+    "5",
+    "Male",
+    "Nuclear Power Engineer",
+    "Compensation Analyst",
+    "5",
+    "0137789785"
+  ),
+  createData(
+    "Merill Blumsom",
+    "6",
+    "Male",
+    "Administrative Assistant II",
+    "Food Chemist",
+    "6",
+    "8250077849"
+  ),
+  createData(
+    "Sally Laguerre",
+    "7",
+    "Female",
+    "Programmer IV",
+    "Design Engineer",
+    "7",
+    "1681786982"
+  ),
+  createData(
+    "Evania Allridge",
+    "8",
+    "Female",
+    "Electrical Engineer",
+    "Help Desk Operator",
+    "8",
+    "2173923420"
+  ),
+  createData(
+    "Hallsy Tebbut",
+    "9",
+    "Male",
+    "Recruiting Manager",
+    "Senior Cost Accountant",
+    "9",
+    "6849632965"
+  ),
+  createData(
+    "Sella Pringer",
+    "10",
+    "Female",
+    "Chief Design Engineer",
+    "Occupational Therapist",
+    "10",
+    "7891157995"
+  ),
 ];
 
 export default function StickyHeadTable() {
@@ -72,7 +191,7 @@ export default function StickyHeadTable() {
 
   return (
     <Paper sx={{ width: "100%", overflow: "hidden" }}>
-      <TableContainer sx={{ maxHeight: 440 }}>
+      <TableContainer sx={{ maxHeight: 340 }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>

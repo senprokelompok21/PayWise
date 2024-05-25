@@ -6,7 +6,13 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <StickyHeadTable />
+      <div className="container ml-[124px] flex flex-col justify-center align-center items-center w-screen h-screen ">
+        <div className="title mb-[16px] font-medium">
+          Employee Salary Database
+        </div>
+        <StickyHeadTable className="flex" />
+        <div className="title my-[16px] font-medium">Data Summary Overview</div>
+      </div>
     </>
   );
 };
