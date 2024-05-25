@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import paywise_logo from "../assets/paywise_logo.png";
 
 const Signup = () => {
   const options = [
@@ -18,7 +19,7 @@ const Signup = () => {
     <div className="screen flex justify-center items-center h-screen w-screen">
       <div className="container w-[320px] flex flex-col pb-[30px] bg-[#ffffff] rounded-[8px] drop-shadow-2xl">
         <div className="header flex flex-col items-center gap-[9px] w-full mt-[30px]">
-          <div className="logo">#PayWise Logo#</div>
+          <img src={paywise_logo} alt="Logo" className="w-[56px] w-[56px]" />
         </div>
         <div className="inputs flex flex-col mt-[24px] ml-[24px] items-start">
           <div className="input mb-[24px]">
