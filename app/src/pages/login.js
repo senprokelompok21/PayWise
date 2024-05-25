@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const {
@@ -24,7 +25,7 @@ const Login = () => {
             <input
               type="text"
               className="email w-[270px] h-[32px] border rounded-[4px] border-primary-500"
-              placeholder="Enter your email"
+              placeholder="Enter your email here"
             />
           </div>
           <div className="input mb-[24px]">
@@ -32,7 +33,7 @@ const Login = () => {
             <input
               type="text"
               className="password w-[270px] h-[32px] border rounded-[4px] border-primary-500"
-              placeholder="Enter your password"
+              placeholder="Enter your password here"
             />
           </div>
         </div>
@@ -40,8 +41,14 @@ const Login = () => {
           <div className="button font-mono font-medium text-xl text-white bg-primary-500 rounded-[4px] flex w-[127px] h-[40px] justify-center items-center cursor-pointer mb-[24px]">
             Login
           </div>
-          <div className="button font-mono font-medium text-xl text-white bg-secondary-500 rounded-[4px] flex w-[127px] h-[40px] justify-center items-center cursor-pointer">
-            Sign Up
+          <div className="signup text-[#797979] text-xs">
+            Don't have account?{" "}
+            <Link
+              to="/signup"
+              className="text-primary-700 cursor-pointer font-semibold underline "
+            >
+              Sign Up
+            </Link>
           </div>
         </div>
       </div>
