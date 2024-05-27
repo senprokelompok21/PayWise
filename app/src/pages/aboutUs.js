@@ -6,7 +6,7 @@ const AboutUs = () => {
     <>
       <Navbar />
       <div className="h-screen w-screen flex items-center justify-center">
-        <div className="container flex flex-col justify-center align-center bg-white rounded-lg w-3/4">
+        <div className="container flex flex-col justify-center align-center bg-white rounded-lg w-3/4 shadow-2xl ring-4">
           <div className="flex justify-center font-bold text-3xl m-[24px]">
             PayWise
           </div>

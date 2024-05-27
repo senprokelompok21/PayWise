@@ -12,10 +12,10 @@ export default function Navbar() {
       />
       <ul className="list-none flex gap-[1rem]">
         <li>
-          <a href="/">Home</a>
+          <a href="/home">Home</a>
         </li>
         <li>
-          <a href="/calculateSalary">Calculate Salary</a>
+          <a href="/">Calculate Salary</a>
         </li>
         <li>
           <a href="/aboutUs">About Us</a>
